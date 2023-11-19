@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = LetterAdapter()
     }
 
+
     private fun setIcon(menuItem: MenuItem?) {
         if (menuItem == null)
             return
